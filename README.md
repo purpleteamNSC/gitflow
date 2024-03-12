@@ -33,3 +33,11 @@ gpg --armor --export chavegerada-sec-rsa4096/
 
 # 3.5 - Salvando export
 salvar na configuração do git em GPG keys
+
+# 3.6 - Configurando o GIT para assinar o commit com GPG
+git config --global user.signingkey chavegerada-sec-rsa4096/
+
+# 3.7 - Habilitando TTY
+colocar em ~/.bash_profile <br>
+export GPG_TTY=$(tty)
+
