@@ -17,3 +17,16 @@ git init
 # 2 - Gitflow
 # 2.2 - Iniciando o Git Flow
 git flow init
+
+# 3 - Gerando chave gpg
+# 3.1 - Instalando gpg 
+apt instal gpg
+
+# 3.2 - Gerando Chave RSA and RSA default
+gpg --full-generate-key
+
+# 3.3 - verificando chave gerada
+gpg --list-secret-key --keyid-form LONG
+
+# 3.4 - Gerando o export da chave
+gpg --armor --export chavegerada-sec-rsa4096/
