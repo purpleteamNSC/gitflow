@@ -41,3 +41,6 @@ git config --global user.signingkey chavegerada-sec-rsa4096/
 colocar em ~/.bash_profile <br>
 export GPG_TTY=$(tty)
 
+# 3.8 - Assinar automaticamente
+git config --global commit.gpgsign true
+git config --global tag.gpgsign true
