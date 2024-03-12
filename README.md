@@ -30,3 +30,6 @@ gpg --list-secret-key --keyid-form LONG
 
 # 3.4 - Gerando o export da chave
 gpg --armor --export chavegerada-sec-rsa4096/
+
+# 3.5 - Salvando export
+salvar na configuração do git em GPG keys
