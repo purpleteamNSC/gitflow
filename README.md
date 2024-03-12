@@ -1,6 +1,5 @@
 # gitflow
-https://www.almerindoabreu.com/assets/img/fluxo-git-flow-dark.png
-![Alt text](image-1.png)
+![Alt text](image.png)
 
 # 1 - GIT
 # 1.2 - Instalaçao do Git
